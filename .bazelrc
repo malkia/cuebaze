@@ -1,0 +1,3 @@
+common --experimental_enable_bzlmod
+build --experimental_convenience_symlinks=clean
+
