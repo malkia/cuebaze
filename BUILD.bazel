@@ -1,4 +1,12 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary")
+
+
 cc_binary(
-  name = "dummy",
+  name = "dummy_cpp",
   srcs = ["dummy.cpp"],
+)
+
+go_binary(
+    name = "dummy_go",
+    srcs = ["dummy.go"],
 )
